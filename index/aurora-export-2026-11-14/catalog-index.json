@@ -1,0 +1,68 @@
+{
+ "name": "Aurora member library — catalog export",
+ "built": "2026-11-14",
+ "format": "chunked JSONL; one object per item: collection, id, title, date (when the record carries one), form [full-text|pdf|catalog-only], locations[] (verified public URLs), sha256 (when the record carries one)",
+ "chunk_lines_max": 2000,
+ "collections": {
+  "public-archive-items": {
+   "chunks": [
+    "public-archive-items-0001.jsonl"
+   ],
+   "items_exported": 2
+  },
+  "scholarly-papers": {
+   "chunks": [
+    "scholarly-papers-0001.jsonl",
+    "scholarly-papers-0002.jsonl"
+   ],
+   "items_exported": 2480
+  },
+  "stargate": {
+   "chunks": [
+    "stargate-0001.jsonl",
+    "stargate-0002.jsonl",
+    "stargate-0003.jsonl",
+    "stargate-0004.jsonl",
+    "stargate-0005.jsonl",
+    "stargate-0006.jsonl",
+    "stargate-0007.jsonl"
+   ],
+   "items_exported": 12478
+  },
+  "un-ga-resolutions": {
+   "chunks": [
+    "un-ga-resolutions-0001.jsonl",
+    "un-ga-resolutions-0002.jsonl",
+    "un-ga-resolutions-0003.jsonl",
+    "un-ga-resolutions-0004.jsonl",
+    "un-ga-resolutions-0005.jsonl",
+    "un-ga-resolutions-0006.jsonl",
+    "un-ga-resolutions-0007.jsonl",
+    "un-ga-resolutions-0008.jsonl",
+    "un-ga-resolutions-0009.jsonl",
+    "un-ga-resolutions-0010.jsonl",
+    "un-ga-resolutions-0011.jsonl"
+   ],
+   "items_exported": 21827
+  },
+  "un-sc-resolutions": {
+   "chunks": [
+    "un-sc-resolutions-0001.jsonl",
+    "un-sc-resolutions-0002.jsonl"
+   ],
+   "items_exported": 2832
+  }
+ },
+ "identity_gate": {
+  "patterns": [
+   "olsick",
+   "paymon777",
+   "stephen\\s+olsick",
+   "steven\\s+olsick",
+   "paimonagent@proton\\.me"
+  ],
+  "hits_dropped": []
+ },
+ "stargate_distinct_esdn_in_catalog": 12478,
+ "stargate_full_text_with_sha256": 8144
+}
